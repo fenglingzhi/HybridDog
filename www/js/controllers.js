@@ -5,7 +5,19 @@ angular.module('starter.controllers', [])
 .controller('LoginCtrl', function($scope,$state) {
     //$state.go('/app');
 })
-  .controller('DashCtrl', function($scope) {})
+  .controller('DashCtrl', function($scope) {
+    $scope.open=function(){
+      console.log('blue in');
+      ble.enable(
+        function() {
+          console.log("Bluetooth is enabled");
+        },
+        function() {
+          console.log("The user did *not* enable Bluetooth");
+        }
+      );
+    }
+  })
 //数据模块
   .controller('ChatsCtrl', function($scope, $state) {
     $state.transitionTo('tab.chat.total');
