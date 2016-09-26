@@ -1,0 +1,175 @@
+/* Empty. Add your own CSS if you like */
+
+/* ================== bar ======================*/
+.bar-red{
+  background: #ed3f41;
+  color: #fff;
+}
+.bar-red-title-i{
+  margin-left: 10px;
+}
+/* ================= login =====================*/
+.login-bar{
+  height: 160px;
+  background-color: #fff;
+  display: block;
+  text-align: center;
+}
+.login-bar img{
+  width: 23%;
+  height: 56%;
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+  margin-top: 50px;
+}
+.login-tabs .tabs{
+  top: 160px;
+  border: none;
+}
+.login-tabs .item{
+  border-top: none;
+}
+.login-list{
+  padding: 0 40px;
+}
+.login-list .item{
+  margin-bottom: 1px;
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+}
+.login-bg{
+  background-color: #fff;
+  margin-top: 210px;
+}
+.login-divider{
+  margin-top: 118px;
+  border: none;
+}
+.login-button{
+  width: 80%!important;
+  margin: auto;
+  background-color: #ed3f41 !important;
+}
+.login-list i{
+  font-size: 24px;
+  color: #ccc;
+}
+.login-list input{
+  padding-left: 20px;
+}
+.login-list .item-input{
+  padding: 4px 0 4px 4px;
+}
+/* ================ setting =================== */
+.setting-tabs{
+  width: 100%;
+}
+.setting-tab{
+  float: left;
+  text-align: center;
+}
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated{
+  color: #ed3f41;
+  border-color: #ed3f41 !important;
+}
+.tab-item-active{
+  color: #ed3f41 !important;
+  font-weight: bold;
+  border-width: 0px 0px 1px 0px !important;
+  border-color: #ed3f41 !important;
+}
+.ion-tabs.tabs-color-active-positive .tab-item{
+  color: #222 !important;
+}
+.tab-item{
+  opacity: 1;
+}
+.calm-bg{
+  background-color: #f6f6f6;
+  /*background-image: url("../img/dog.png");*/
+  /*background-position: 50% 20%;*/
+  /*background-repeat: no-repeat;*/
+}
+.dog-404{
+  display: block;
+  height: 100%;
+  color: #9a9a9a;
+  text-align: center;
+  margin-top: 20%;
+}
+.dog-404 p{
+  margin: 0 auto;
+  text-align: center;
+  color: #9a9a9a;
+}
+
+/* ================== setting ===================== */
+.more-bar{
+  height: auto;
+}
+.more-bar .item{
+  background-color: transparent;
+  border: none;
+  color: #fff !important;
+}
+.more-bar h2{
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+}
+.more-bar p{
+  color: #fff;
+  margin-top: 2%;
+}
+.more-bar a{
+  width: 100%;
+}
+.more-bar i{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  right: 8%;
+}
+.more-bar img{
+  margin-top: 2%;
+}
+.more-list .has-header {
+  top: 104px;
+}
+.more-content i{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  right: 8%;
+  color: #9a9a9a;
+}
+.more-content img{
+  top: 10px !important;
+}
+.more-content .item-avatar{
+  min-height: 60px;
+}
+.more-content p{
+  line-height: 24px;
+}
+.more-divider{
+  min-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
