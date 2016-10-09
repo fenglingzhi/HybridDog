@@ -10,13 +10,10 @@
         "cordova-plugin-ble-central": {
             "PACKAGE_NAME": "com.ionicframework.myapp790457"
         },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ionicframework.myapp790457"
-        },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.ionicframework.myapp790457"
         },
-        "cordova-plugin-whitelist": {
+        "cordova-plugin-device": {
             "PACKAGE_NAME": "com.ionicframework.myapp790457"
         },
         "cordova-plugin-splashscreen": {
@@ -25,10 +22,13 @@
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.ionicframework.myapp790457"
         },
-        "ionic-plugin-keyboard": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.myapp790457"
         },
         "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.ionicframework.myapp790457"
+        },
+        "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.myapp790457"
         }
     },

@@ -1,0 +1,11 @@
+<ion-view view-title="" class="more-list more-content">
+  <ion-content class="item-divider">
+    <ul class="list">
+      <li class="item" ng-repeat="device in devices track by $index" ng-click="connect(device.id)">
+        {{device.name}}
+      </li>
+    </ul>
+    <button  ng-click="open()">打开蓝牙</button>
+    <button  ng-click="search()">搜索设备</button>
+  </ion-content>
+</ion-view>
